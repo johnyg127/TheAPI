@@ -49,3 +49,9 @@ print(theapi.fa_search_recipes("apple", 1))
 # SearchIngredients:
 print(theapi.fa_search_ingredients("apple", 1))
 ```
+> #### PexelsAPI
+```py
+# SearchPhotos:
+print(theapi.pa_search_photos("apple", 1))
+```
+
