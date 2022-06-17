@@ -22,3 +22,10 @@ python3 example.py
 >> ### Drag The "theapi.py" File To Your Project
 >> ### Add API Keys To .env
 >> ### Drag The ".env" File To Your Project
+
+
+> ## Step 2
+>> ### In Your Own File, In The Beginning Type The Following;
+```py
+import theapi
+```
