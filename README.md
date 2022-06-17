@@ -3,15 +3,15 @@
 # Run Example Code
 
 > ## Step 1
->> ### Install Required Packages
+> ### Install Required Packages
 ```py
 pip3 install -r requirements.txt
 ```
 > ## Step 2
->> ### Add API Keys To The .env File
+> ### Add API Keys To The .env File
 
 > ## Step 3
-> > ### Run Example File
+> ### Run Example File
 ```py
 python3 example.py
 ```
@@ -19,13 +19,17 @@ python3 example.py
 # Use In Code
 
 > ## Step 1
->> ### Drag The "theapi.py" File To Your Project
->> ### Add API Keys To .env
->> ### Drag The ".env" File To Your Project
+> ### Drag The "theapi.py" File To Your Project
+> ### Add API Keys To .env
+> ### Drag The ".env" File To Your Project
 
 
 > ## Step 2
->> ### In Your Own File, In The Beginning Type The Following;
+> ### In Your Own File, In The Beginning Type The Following:
 ```py
 import theapi
 ```
+
+> ## Step 3
+> ### Choose An API Which You Would Like To Use, And Add It To Your Code:
+> #### NewsAPI
