@@ -65,9 +65,5 @@ print(theapi.fix_get_latest_rates("USD"))
 print(theapi.wa_get_current_weather("New York"))
 ```
 ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+# - IMPORTANT! Make Sure To Add The API Key For Every API Which Requires One!
 ```
