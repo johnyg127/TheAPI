@@ -15,3 +15,8 @@ pip3 install -r requirements.txt
 ```py
 python3 example.py
 ```
+
+# Use In Code
+
+> ## Step 1
+>> ### Drag The "theapi.py" File To Your Project
