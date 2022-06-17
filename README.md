@@ -20,3 +20,5 @@ python3 example.py
 
 > ## Step 1
 >> ### Drag The "theapi.py" File To Your Project
+>> ### Add API Keys To .env
+>> ### Drag The ".env" File To Your Project
