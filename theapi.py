@@ -25,11 +25,11 @@ def na_get_top_headlines(query, language, category):
 
 #FoodAPI Functions:
 def fa_search_grocery_products(query, number):
-    return json.loads(requests.get("https://api.spoonacular.com/food/products/search?query=" + query + "&number=" + number +"&apiKey=" + config["foodapiKEY"]).text)
+    return json.loads(requests.get("https://api.spoonacular.com/food/products/search?query=" + query + "&number=" + str(number) +"&apiKey=" + config["foodapiKEY"]).text)
 def fa_search_recipes(query, number):
-    return json.loads(requests.get("https://api.spoonacular.com/recipes/complexSearch?query=" + query + "&number=" + number + "&apiKey=" + config["foodapiKEY"]).text)
+    return json.loads(requests.get("https://api.spoonacular.com/recipes/complexSearch?query=" + query + "&number=" + str(number) + "&apiKey=" + config["foodapiKEY"]).text)
 def fa_search_ingredients(query, number):
-    return json.loads(requests.get("https://api.spoonacular.com/food/ingredients/search?query=" + query + "&number=" + number + "&apiKey=" + config["foodapiKEY"]).text)
+    return json.loads(requests.get("https://api.spoonacular.com/food/ingredients/search?query=" + query + "&number=" + str(number) + "&apiKey=" + config["foodapiKEY"]).text)
 
 #PexelsAPI Functions:
 def pa_search_photos(query, per_page):
