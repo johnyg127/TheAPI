@@ -54,4 +54,13 @@ print(theapi.fa_search_ingredients("apple", 1))
 # SearchPhotos:
 print(theapi.pa_search_photos("apple", 1))
 ```
-
+> #### FixerAPI
+```py
+# GetLatestRates:   
+print(theapi.fix_get_latest_rates("USD"))
+```
+> #### WeatherAPI
+```py
+# GetCurrentWeather:
+print(theapi.wa_get_current_weather("New York"))
+```
