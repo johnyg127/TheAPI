@@ -64,6 +64,4 @@ print(theapi.fix_get_latest_rates("USD"))
 # GetCurrentWeather:
 print(theapi.wa_get_current_weather("New York"))
 ```
-```diff
-# - IMPORTANT! Make Sure To Add The API Key For Every API Which Requires One!
-```
+# ❗ IMPORTANT! Make Sure To Add The API Key For Every API Which Requires One!
