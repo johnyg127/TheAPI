@@ -70,3 +70,7 @@ print(theapi.fix_get_latest_rates("USD"))
 print(theapi.wa_get_current_weather("New York"))
 ```
 # ❗ IMPORTANT! Make Sure To Add An API Key For Every API Which You Use And Requires One!
+
+# Credits
+https://www.instagram.com/johnyg127/
+https://www.youtube.com/channel/UC_pSdkL6ibDVuqRS_lrRm8Q
