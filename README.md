@@ -11,6 +11,7 @@ pip3 install -r requirements.txt
 >> ### Add API Keys To The .env File
 
 > ## Step 3
+> > ### Run Example File
 ```py
 python3 example.py
 ```
