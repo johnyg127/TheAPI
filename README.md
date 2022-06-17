@@ -33,3 +33,10 @@ import theapi
 > ## Step 3
 > ### Choose An API Which You Would Like To Use, And Add It To Your Code:
 > #### NewsAPI
+```py
+
+# GetEverything:
+print(theapi.na_get_everything("bitcoin", 1, "en"))
+# GetTopHeadlines:
+print(theapi.na_get_top_headlines("bitcoin", "en", "business"))
+```
