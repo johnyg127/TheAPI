@@ -40,3 +40,12 @@ print(theapi.na_get_everything("bitcoin", 1, "en"))
 # GetTopHeadlines:
 print(theapi.na_get_top_headlines("bitcoin", "en", "business"))
 ```
+> #### FoodAPI
+```py
+# SearchGroceryProducts:
+print(theapi.fa_search_grocery_products("apple", 1))
+# SearchRecipes:
+print(theapi.fa_search_recipes("apple", 1))
+# SearchIngredients:
+print(theapi.fa_search_ingredients("apple", 1))
+```
